@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('www.baidu.com')
+WebUI.openBrowser('http://10.17.5.113/#/login?redirect=%2Fcontroller')
 
 WebUI.setText(findTestObject('LoginPage/user'), username)
 
-not_run: WebUI.setText(findTestObject('LoginPage/pwd'), password)
+WebUI.setText(findTestObject('LoginPage/pwd'), password)
 
-not_run: WebUI.click(findTestObject('LoginPage/button'))
+WebUI.click(findTestObject('LoginPage/button'))
 
-not_run: WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 

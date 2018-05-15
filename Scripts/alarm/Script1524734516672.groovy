@@ -21,14 +21,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('login'), [('j') : findTestObject('head'), ('time') : '', ('username') : 'admin', ('password') : '123456'], 
-    FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('login'), [('j') : findTestObject('head'), ('time') : '', ('username') : 'admin'
+        , ('password') : '123456'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('LightPage/light'))
+not_run: WebUI.click(findTestObject('LightPage/light'))
 
 not_run: sum()
 
-CustomKeywords.'creatKeyword.Total.sum'()
+not_run: CustomKeywords.'creatKeyword.Total.sum'()
 
 not_run: WebUI.delay(2)
 
@@ -37,6 +37,4 @@ not_run: WebUI.check(findTestObject('AlarmPage/checkbox'))
 not_run: WebUI.click(findTestObject('AlarmPage/confirm'))
 
 not_run: WebUI.check(findTestObject('CommonPage/checkBox', [('index') : 2]))
-
-WebUI.acceptAlert()
 

@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://47.98.198.212')
+not_run: WebUI.openBrowser('http://47.98.198.212')
 
-WebUI.setText(findTestObject('LoginPage/user'), username)
+not_run: WebUI.setText(findTestObject('LoginPage/user'), username)
 
-WebUI.setText(findTestObject('LoginPage/pwd'), password)
+not_run: WebUI.setText(findTestObject('LoginPage/pwd'), password)
 
-WebUI.click(findTestObject('LoginPage/button'))
+not_run: WebUI.click(findTestObject('LoginPage/button'))
 
-WebUI.click(findTestObject('null'))
+not_run: WebUI.click(findTestObject('null'))
 
