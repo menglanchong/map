@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('www.baidu.com')
 
-not_run: WebUI.setText(findTestObject('LoginPage/user'), username)
+WebUI.setText(findTestObject('LoginPage/user'), username)
 
 not_run: WebUI.setText(findTestObject('LoginPage/pwd'), password)
 
