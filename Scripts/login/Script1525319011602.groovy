@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('www.baidu.com')
 
-WebUI.setText(findTestObject('LoginPage/user'), username)
+not_run: WebUI.setText(findTestObject('LoginPage/user'), username)
 
-WebUI.setText(findTestObject('LoginPage/pwd'), password)
+not_run: WebUI.setText(findTestObject('LoginPage/pwd'), password)
 
-WebUI.click(findTestObject('LoginPage/button'))
+not_run: WebUI.click(findTestObject('LoginPage/button'))
 
 not_run: WebUI.maximizeWindow()
 
