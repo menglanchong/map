@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 59.0,,2018-05-08 16:02:51,2018-05-08 16:04:37,1m - 46.041s,FAILED
+,,,,,,
+Test Cases/loginTest,Firefox 59.0,,2018-05-08 16:02:51,2018-05-08 16:03:18,27.353s,FAILED
+openBrowser,Firefox 59.0,,2018-05-08 16:02:51,2018-05-08 16:02:58,6.539s,PASSED
+setText,Firefox 59.0,,2018-05-08 16:02:58,2018-05-08 16:02:58,0.191s,PASSED
+setText,Firefox 59.0,,2018-05-08 16:02:58,2018-05-08 16:02:58,0.066s,PASSED
+click,Firefox 59.0,,2018-05-08 16:02:58,2018-05-08 16:02:58,0.245s,PASSED
+click,Firefox 59.0,,2018-05-08 16:02:58,2018-05-08 16:03:18,20.048s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-05-08 16:03:18,2018-05-08 16:03:18,0.015s,PASSED
+,,,,,,
+Test Cases/loginTest,Firefox 59.0,,2018-05-08 16:03:18,2018-05-08 16:03:19,0.096s,FAILED
+openBrowser,Firefox 59.0,,2018-05-08 16:03:18,2018-05-08 16:03:19,0.058s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-05-08 16:03:19,2018-05-08 16:03:19,0.009s,PASSED
+,,,,,,
+Test Cases/loginTest,Firefox 59.0,,2018-05-08 16:03:19,2018-05-08 16:03:55,36.797s,FAILED
+openBrowser,Firefox 59.0,,2018-05-08 16:03:19,2018-05-08 16:03:24,5.918s,PASSED
+setText,Firefox 59.0,,2018-05-08 16:03:24,2018-05-08 16:03:25,0.056s,PASSED
+setText,Firefox 59.0,,2018-05-08 16:03:25,2018-05-08 16:03:25,0.055s,PASSED
+click,Firefox 59.0,,2018-05-08 16:03:25,2018-05-08 16:03:25,0.235s,PASSED
+click,Firefox 59.0,,2018-05-08 16:03:25,2018-05-08 16:03:55,30.516s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-05-08 16:03:55,2018-05-08 16:03:55,0.002s,PASSED
+,,,,,,
+Test Cases/login,Firefox 59.0,,2018-05-08 16:03:55,2018-05-08 16:04:02,6.535s,FAILED
+openBrowser,Firefox 59.0,,2018-05-08 16:03:56,2018-05-08 16:04:00,4.633s,PASSED
+setText,Firefox 59.0,,2018-05-08 16:04:00,2018-05-08 16:04:02,1.629s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-05-08 16:04:02,2018-05-08 16:04:02,0.001s,PASSED
+,,,,,,
+Test Cases/login,Firefox 59.0,,2018-05-08 16:04:02,2018-05-08 16:04:02,0.457s,FAILED
+openBrowser,Firefox 59.0,,2018-05-08 16:04:02,2018-05-08 16:04:02,0.418s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-05-08 16:04:02,2018-05-08 16:04:02,0.002s,PASSED
+,,,,,,
+Test Cases/login,Firefox 59.0,,2018-05-08 16:04:02,2018-05-08 16:04:36,33.646s,FAILED
+openBrowser,Firefox 59.0,,2018-05-08 16:04:02,2018-05-08 16:04:06,3.171s,PASSED
+setText,Firefox 59.0,,2018-05-08 16:04:06,2018-05-08 16:04:36,30.411s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-05-08 16:04:36,2018-05-08 16:04:36,0.001s,PASSED

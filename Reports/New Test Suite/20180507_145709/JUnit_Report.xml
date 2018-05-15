@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="82" tests="0" failures="3" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="3" errors="0" time="82" timestamp="2018-05-07 14:57:11" hostname="chengx - DESKTOP-NGDSH7O" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709"/>
+         <property name="logFiles" value="C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676238039.png, C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676238391.png, C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676274807.png, C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676275142.png, C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676311741.png, C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676312075.png"/>
+         <property name="hostName" value="chengx - DESKTOP-NGDSH7O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="hostAddress" value="10.17.11.225"/>
+         <property name="sessionId" value="d06bfbcfc8f26da4fd4e89881e036164"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/loginTest" classname="Test Cases/loginTest" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-07 14:57:12 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)
+
+2018-05-07 14:57:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-07 14:57:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-07 14:57:16 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-07 14:57:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-07 14:57:17 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-07 14:57:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-07 14:57:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-07 14:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-07 14:57:17 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)
+
+2018-05-07 14:57:18 - [MESSAGE][FAILED] - Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676238039.png]]
+
+2018-05-07 14:57:18 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676238391.png]]
+
+2018-05-07 14:57:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-07 14:57:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-07 14:57:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-07 14:57:12 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginTest" classname="Test Cases/loginTest" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class=&quot;form-detail&quot;]/span[2]' not found)"/>
+         <system-out><![CDATA[2018-05-07 14:57:18 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)
+
+2018-05-07 14:57:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-07 14:57:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-07 14:57:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-07 14:57:23 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-07 14:57:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-07 14:57:23 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-07 14:57:23 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-07 14:57:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-07 14:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-07 14:57:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginPage/message' are matched.
+
+2018-05-07 14:57:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/message' are matched.
+
+2018-05-07 14:57:24 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)
+
+2018-05-07 14:57:55 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676274807.png]]
+
+2018-05-07 14:57:55 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676275142.png]]
+
+2018-05-07 14:57:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-07 14:57:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-07 14:57:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-07 14:57:18 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginTest" classname="Test Cases/loginTest" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class=&quot;form-detail&quot;]/span[2]' not found)"/>
+         <system-out><![CDATA[2018-05-07 14:57:55 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)
+
+2018-05-07 14:57:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-07 14:57:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-07 14:58:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-07 14:58:00 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-07 14:58:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-07 14:58:00 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-07 14:58:00 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-07 14:58:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-07 14:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-07 14:58:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginPage/message' are matched.
+
+2018-05-07 14:58:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/message' are matched.
+
+2018-05-07 14:58:01 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)
+
+2018-05-07 14:58:32 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676311741.png]]
+
+2018-05-07 14:58:32 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180507_145709\\1525676312075.png]]
+
+2018-05-07 14:58:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-07 14:58:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-07 14:58:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-07 14:57:55 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/message' located by 'By.xpath: //div[@class="form-detail"]/span[2]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 14:57:11 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-07 14:57:11 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/loginTest FAILED because (of) Verify element text of test object 'Object Repository/LoginPage/message' FAILED. (Root cause: Actual text '请输入账户名' and expected text '' of test object 'Object Repository/LoginPage/message' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

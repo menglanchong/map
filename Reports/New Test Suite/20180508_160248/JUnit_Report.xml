@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="106" tests="0" failures="6" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="6" errors="0" time="106" timestamp="2018-05-08 16:02:51" hostname="chengx - DESKTOP-NGDSH7O" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180508_160248"/>
+         <property name="logFiles" value="C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180508_160248\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180508_160248\\1525766635673.png, C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180508_160248\\1525766676416.png"/>
+         <property name="hostName" value="chengx - DESKTOP-NGDSH7O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="10.17.11.225"/>
+         <property name="sessionId" value="bdac4dc6-cf9e-4826-b84c-d2c7940292cb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/loginTest" classname="Test Cases/loginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})"/>
+         <system-out><![CDATA[2018-05-08 16:02:51 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})
+
+2018-05-08 16:02:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://47.98.198.212'
+
+2018-05-08 16:02:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://47.98.198.212'
+
+2018-05-08 16:02:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-08 16:02:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-08 16:02:58 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-08 16:02:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-08 16:02:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-08 16:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-08 16:02:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})
+
+2018-05-08 16:03:18 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-08 16:03:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})
+
+2018-05-08 16:03:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-08 16:03:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-08 16:03:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:02:51 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginTest" classname="Test Cases/loginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://47.98.198.212' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf)"/>
+         <system-out><![CDATA[2018-05-08 16:03:18 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Unable to open browser with url: 'http://47.98.198.212' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf)
+
+2018-05-08 16:03:18 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://47.98.198.212' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf)
+
+2018-05-08 16:03:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 16:03:19 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://47.98.198.212' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf)
+
+2018-05-08 16:03:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-08 16:03:19 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-08 16:03:19 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:03:18 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Unable to open browser with url: 'http://47.98.198.212' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginTest" classname="Test Cases/loginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CommonPage/ttt' located by 'By.xpath: //span[test()='监控']' not found)"/>
+         <system-out><![CDATA[2018-05-08 16:03:19 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CommonPage/ttt' located by 'By.xpath: //span[test()='监控']' not found)
+
+2018-05-08 16:03:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://47.98.198.212'
+
+2018-05-08 16:03:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://47.98.198.212'
+
+2018-05-08 16:03:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-08 16:03:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoginPage/user'
+
+2018-05-08 16:03:25 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-08 16:03:25 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/LoginPage/pwd'
+
+2018-05-08 16:03:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-08 16:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button' is clicked on
+
+2018-05-08 16:03:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CommonPage/ttt' located by 'By.xpath: //span[test()='监控']' not found)
+
+2018-05-08 16:03:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CommonPage/ttt' located by 'By.xpath: //span[test()='监控']' not found)
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180508_160248\\1525766635673.png]]
+
+2018-05-08 16:03:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-08 16:03:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-08 16:03:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:03:19 - [TEST_CASE][FAILED] - Test Cases/loginTest: Test Cases/loginTest FAILED because (of) Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CommonPage/ttt' located by 'By.xpath: //span[test()='监控']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d
+*** Element info: {Using=xpath, value=//*[@name = 'login-username']})"/>
+         <system-out><![CDATA[2018-05-08 16:03:55 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d
+*** Element info: {Using=xpath, value=//*[@name = 'login-username']})
+
+2018-05-08 16:03:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-08 16:03:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 16:04:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-08 16:04:00 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d
+*** Element info: {Using=xpath, value=//*[@name = 'login-username']})
+
+2018-05-08 16:04:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-08 16:04:02 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d
+*** Element info: {Using=xpath, value=//*[@name = 'login-username']})
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:03:55 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d
+*** Element info: {Using=xpath, value=//*[@name = 'login-username']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d)"/>
+         <system-out><![CDATA[2018-05-08 16:04:02 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to open browser with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d)
+
+2018-05-08 16:04:02 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d)
+
+2018-05-08 16:04:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 16:04:02 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d)
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:04:02 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to open browser with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9808, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e76ecec8-3253-45a4-add2-8c48bd62276d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/user' located by 'By.xpath: //*[@name = 'login-username']' not found)"/>
+         <system-out><![CDATA[2018-05-08 16:04:02 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/user' located by 'By.xpath: //*[@name = 'login-username']' not found)
+
+2018-05-08 16:04:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-08 16:04:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.17.5.113/#/login?redirect=%2Fcontroller'
+
+2018-05-08 16:04:06 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/user' located by 'By.xpath: //*[@name = 'login-username']' not found)
+
+2018-05-08 16:04:36 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/user' located by 'By.xpath: //*[@name = 'login-username']' not found)
+[[ATTACHMENT|C:\\Users\\chengx\\Katalon Studio\\gaoyou\\Reports\\New Test Suite\\20180508_160248\\1525766676416.png]]
+
+2018-05-08 16:04:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-05-08 16:04:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-05-08 16:04:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-05-08 16:04:02 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to set text '' of object 'Object Repository/LoginPage/user' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginPage/user' located by 'By.xpath: //*[@name = 'login-username']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 16:02:51 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/loginTest FAILED because (of) Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})]]></system-out>
+      <system-err><![CDATA[2018-05-08 16:02:51 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/loginTest FAILED because (of) Unable to click on object 'Object Repository/CommonPage/ttt' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-NGDSH7O', ip: '10.17.11.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5260, moz:profile: C:\Users\chengx\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 52a80571-d508-4493-accd-6d98eedd0bbf
+*** Element info: {Using=xpath, value=//span[test()='监控']})]]></system-err>
+   </testsuite>
+</testsuites>

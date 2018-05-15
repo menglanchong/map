@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6724128e-3568-4a20-a138-08b34244a8c7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('head')</defaultValue>
+      <description></description>
+      <id>17cfc6d7-3b49-4538-a817-5600753c1771</id>
+      <masked>false</masked>
+      <name>j</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6537dbe3-60b9-461b-8af5-f73a9e142750</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>2988f181-14a9-48aa-a21a-89ec4fbfe993</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>64651303-df7d-4676-ba77-4c4d31b307e5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

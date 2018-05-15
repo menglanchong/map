@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>gaoyou</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>23cc0134-63e4-4c77-b39b-6da0093a2bdd</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

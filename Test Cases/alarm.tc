@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>alarm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7833990-45b8-4e32-a1e1-07cd8041a620</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('CommonPage/total')</defaultValue>
+      <description></description>
+      <id>28cf7127-9c05-437d-bcb7-0174372003a3</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

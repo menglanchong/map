@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>CheckpointData</name>
+   <tag></tag>
+   <db-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>jdbc:mysql://10.17.5.114:3306/gaoyou</source-url>
+      <source-type>DBData</source-type>
+      <is-using-global-db-setting>false</is-using-global-db-setting>
+      <is-secure-user-account>true</is-secure-user-account>
+      <user>gaoyou</user>
+      <password>MTIzNC5jb21AU0g=</password>
+      <query><![CDATA[select * from gyu_media]]></query>
+   </db-source-info>
+   <checkpoint-data><![CDATA[null]]></checkpoint-data>
+</checkpoint>
